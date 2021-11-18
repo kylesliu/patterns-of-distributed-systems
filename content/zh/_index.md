@@ -1,40 +1,45 @@
+---
+title: 介绍
+type: docs
+---
+
 # 《分布式系统模式》中文版
 
 [《分布式系统模式》（Patterns of Distributed Systems）](https://martinfowler.com/articles/patterns-of-distributed-systems/)是 [Unmesh Joshi](https://twitter.com/unmeshjoshi) 编写的一系列关于分布式系统实现的文章。这个系列的文章采用模式的格式，介绍了像 Kafka、Zookeeper 这种分布式系统在实现过程采用的通用模式，是学习分布式系统实现的基础。
 
 ## 目录
 
-[概述](content/overview.md)
+[概述](overview)
 
 ### 模式
 
-- [一致性内核（Consistent Core）](content/consistent-core.md)
+- [一致性内核（Consistent Core）](consistent-core)
 - 固定分区（Fixed Partitions）
-- [追随者读取（Follower Reads）](content/follower-reads.md)
-- [世代时钟（Generation Clock）](content/generation-clock.md)
-- [Gossip 传播（Gossip Dissemination）](content/gossip-dissemination.md)
-- [心跳（HeartBeat）](content/heartbeat.md)
-- [高水位标记（High-Water Mark）](content/high-water-mark.md)
-- [混合时钟（Hybrid Clock）](content/hybrid-clock.md)
-- [幂等接收者（Idempotent Receiver）](content/idempotent-receiver.md)
+- [追随者读取（Follower Reads）](follower-reads)
+- [世代时钟（Generation Clock）](generation-clock)
+- [Gossip 传播（Gossip Dissemination）](/gossip-dissemination.md)
+- [心跳（HeartBeat）](/heartbeat.md)
+- [高水位标记（High-Water Mark）](/high-water-mark.md)
+- [混合时钟（Hybrid Clock）](/hybrid-clock.md)
+- [幂等接收者（Idempotent Receiver）](/idempotent-receiver.md)
 - 键值与值（Key And Value）
-- [Lamport 时钟（Lamport Clock）](content/lamport-clock.md)
-- [领导者和追随者（Leader and Followers）](content/leader-and-followers.md)
-- [租约（Lease）](content/lease.md)
-- [低水位标记（Low-Water Mark）](content/low-water-mark.md)
+- [Lamport 时钟（Lamport Clock）](/lamport-clock.md)
+- [领导者和追随者（Leader and Followers）](/leader-and-followers.md)
+- [租约（Lease）](/lease.md)
+- [低水位标记（Low-Water Mark）](/low-water-mark.md)
 - Paxos
-- [Quorum](content/quorum.md)
+- [Quorum](/quorum.md)
 - 可复制日志（Replicated Log）
 - 批量请求（Request Batch）
-- [请求管道（Request Pipeline）](content/request-pipeline.md)
-- [分段日志（Segmented Log）](content/segmented-log.md)
-- [单一 Socket 通道（Single Socket Channel）](content/single-socket-channel.md)
-- [单一更新队列（Singular Update Queue）](content/singular-update-queue.md)
-- [状态监控（State Watch）](content/state-watch.md)
+- [请求管道（Request Pipeline）](/request-pipeline.md)
+- [分段日志（Segmented Log）](/segmented-log.md)
+- [单一 Socket 通道（Single Socket Channel）](/single-socket-channel.md)
+- [单一更新队列（Singular Update Queue）](/singular-update-queue.md)
+- [状态监控（State Watch）](/state-watch.md)
 - 两阶段提交（Two Phase Commit）
-- [版本向量（Version Vector）](content/version-vector.md)
-- [有版本的值（Versioned Values）](content/versioned-value.md)
-- [预写日志（Write-Ahead Log）](content/write-ahead-log.md)
+- [版本向量（Version Vector）](/version-vector.md)
+- [有版本的值（Versioned Values）](/versioned-value.md)
+- [预写日志（Write-Ahead Log）](/write-ahead-log.md)
 
 ## 术语表
 
